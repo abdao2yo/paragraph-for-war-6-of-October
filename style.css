@@ -1,0 +1,139 @@
+body {
+    background-image: linear-gradient(#030a33, #232daf);
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: #000;
+    -moz-animation: alternate-reverse;
+    padding: 20px;
+}
+
+.object2 {
+    margin-left: 50px;
+    width: 50%;
+    background-color: #05081b;
+    border-radius: 10PX;
+    margin-top: 20px;
+    display: flex;
+    margin-right: 50px;
+    padding: 5px;
+    animation-name: tow;
+    animation-duration: 3s;
+}
+
+@keyframes tow {
+    0% {
+        width: 50%;
+        color: #05081b;
+    }
+
+    50% {
+        color: #05081b;
+    }
+
+    65% {
+        color: #ffffff;
+    }
+}
+
+.object4 {
+    width: 50%;
+    margin-left: auto;
+    border-radius: 10PX;
+    background-color: #05081b;
+    padding: 5px;
+    margin-right: 50px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    animation-name: four;
+    animation-duration: 3s;
+}
+
+@keyframes four {
+    0% {
+        width: 50%;
+        color: #05081b;
+    }
+
+    50% {
+        color: #05081b;
+    }
+
+    80% {
+        color: #ffffff;
+    }
+}
+
+.object6 {
+    width: 50%;
+    margin-left: 50px;
+    border-radius: 10PX;
+    background-color: #05081b;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: flex;
+    animation-name: six;
+    animation-duration: 3s;
+}
+
+@keyframes six {
+    0% {
+        width: 50%;
+        color: #05081b;
+        display: none;
+    }
+
+    50% {
+        color: #05081b;
+    }
+
+    75% {
+        color: #05081b;
+    }
+
+}
+
+.object7 {
+    width: 50%;
+    border-radius: 10PX;
+    background-color: #05081b;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+    animation-name: seven;
+    animation-duration: 3s;
+    align-items: center;
+}
+
+@keyframes seven {
+    0% {
+        width: 50%;
+        color: #05081b;
+    }
+
+    50% {
+        color: #05081b;
+    }
+
+    75% {
+        color: #ffffff;
+    }
+}
+
+h2 {
+    width: 60%;
+    padding: 3px;
+    margin-left: 10px;
+    word-spacing: 5px;
+}
+
+img {
+    background-size: cover;
+    width: 40%;
+}
+.object1:hover,.object2:hover,.object3:hover,.object4:hover,.object5:hover,.object6:hover,.object7:hover{
+    transition: 1.5s;
+    font-size: 17px;
+}
